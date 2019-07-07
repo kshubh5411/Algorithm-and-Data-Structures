@@ -43,7 +43,7 @@ LCS
 
 
 Cpp:
-struct Node
+/**struct Node
 {
     int data;
     struct Node* left;
@@ -54,7 +54,7 @@ struct Node
         left = right = NULL;
     }
 };
- */
+ **/
 /* If n1 and n2 are present, return pointer
    to LCA. If both are not present, return 
    NULL. Else if left subtree contains any 
