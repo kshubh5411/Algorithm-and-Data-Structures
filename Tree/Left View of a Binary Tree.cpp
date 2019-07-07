@@ -10,6 +10,8 @@ Left view of following tree is 1 2 4 8.
    \
      8
 **/
+//Soln: Level Order Traversal and print first val;
+
 void leftView(Node *root)
 {
 if(root==NULL) return;
@@ -34,4 +36,12 @@ if(root==NULL) return;
     
   }
   
+}
+
+// Recursion level Order Traversal:
+void sol(Node* root, map<int,vector<int>>mp,int l=0(intial)){
+          if(root==NULL) return ;
+          mp[l].push_back(root->data);
+          sol(root->left,mp,l+1);
+          sol(root->right,mp,l+1);
 }
