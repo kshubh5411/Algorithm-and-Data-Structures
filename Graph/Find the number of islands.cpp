@@ -1,8 +1,12 @@
 /**
-A group of connected 1's forms an island. The task is to complete the method findIslands() which returns the number of islands present. The function takes three arguments the first is the boolean matrix A and then the next two arguments are N and M denoting the size(N*M) of the matrix A .
+A group of connected 1's forms an island. 
+The task is to complete the method findIslands()
+which returns the number of islands present. The function takes three arguments 
+the first is the boolean matrix A and then the next two arguments are N and M denoting the size(N*M) of the matrix A .
 
 Input:
-The first line of input will be the number of testcases T, then T test cases follow. The first line of each testcase contains two space separated integers N and M. Then in the next line are the NxM inputs of the matrix A separated by space .
+The first line of input will be the number of testcases T, then T test cases follow. The first line of each 
+testcase contains two space separated integers N and M. Then in the next line are the NxM inputs of the matrix A separated by space .
 
 Output:
 For each testcase in a new line, print the number of islands present.
