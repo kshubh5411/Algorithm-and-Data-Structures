@@ -23,7 +23,7 @@ For each test case in a new line output will be 1 if the order of string returne
 Constraints:
 1 <= T <= 200
 1 <= N <= 100
-1 <= k <= 26
+1 <= k <= 26 
 1 <= Length of words <= 1000
 
 Example:
