@@ -1,5 +1,6 @@
 /**
-Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary the task is to complete the function which returns a string denoting the order of characters in the language.
+Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary the task is
+to complete the function which returns a string denoting the order of characters in the language.
 Note: Many orders may be possible for a particular test case, thus you may return any valid order.
 Examples:
 Input:  Dict[] = { "baa", "abcd", "abca", "cab", "cad" }, k = 4
@@ -15,7 +16,8 @@ Output: Function returns "cab"
  
 
 Input:
-The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N and k denoting the size of the dictionary. Then in the next line are sorted space separated values of the alien dictionary.
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case
+contains an integer N and k denoting the size of the dictionary. Then in the next line are sorted space separated values of the alien dictionary.
 
 Output:
 For each test case in a new line output will be 1 if the order of string returned by the function is correct else 0 denoting incorrect string returned.
